@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form>
+        <label>Kérem az első számot:</label><br>
+        <input type="text" id="elso" value="0"><br>
+        <label>Kérem a második számot:</label><br>
+        <input type="text" id="masodik" value="0"><br>
+        <button onclick="szamit(this.id)" id="szorzas" type="button">*</button>
+        <button onclick="szamit(this.id)" id="osztas" type="button">/</button>
+        <button onclick="szamit(this.id)" id="osszeadas" type="button">+</button>
+        <button onclick="szamit(this.id)" id="kivonas" type="button">-</button>
+    </form>
+    <h4>Eredmény</h4>
+    <h4 id="eredmeny">?</h4>
+</body>
+</html>
